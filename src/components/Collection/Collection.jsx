@@ -39,7 +39,7 @@ export default class Collection extends React.Component {
   	return(
   		this.props.data.map((detail, index) => {
   			return (
-  				<Col xs={6} key={index}>
+  				<Col xs={4} key={index}>
 	  				<Card style={{"marginTop": "10px"}} onClick={this.openModalWindow}>
 	  				  <CardHeader
 			          title={detail.url}
